@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="../dist/output.css" rel="stylesheet" />
+		<title>Facebook - entre ou cadastre-se</title>
+		<link rel="icon" href="img/facebook.ico" />
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Ruda:wght@400;700&display=swap");
+		</style>
+	</head>
+	<body>
+		<!-- Header (Logo) -->
+		<div class="w-full flex justify-center mt-5 p-2">
+			<a href="#">
+				<img src="img/logo_facebook.svg" alt="Facebook" class="w-28" />
+			</a>
+		</div>
+		<!-- Content -->
+		<form action="" class="flex flex-col px-8">
+			<input
+				class="
+					rounded
+					border border-gray-200
+					bg-gray-100
+					p-2
+					mb-4
+					hover:border-bg-black hover:border-1
+				"
+				type="text"
+				placeholder="Número de celular ou email"
+			/>
+
+			<input
+				class="
+					rounded
+					border border-gray-200
+					bg-gray-100
+					p-2
+					mb-4
+					hover:border-bg-black hover:border-1
+				"
+				type="password"
+				placeholder="Senha"
+			/>
+
+			<button
+				type="submit"
+				class="w-full bg-facebook-blue text-white p-2 rounded-lg font-bold"
+			>
+				Entrar
+			</button>
+		</form>
+
+		<!-- Esqueceu sua senha ou Criar nova conta -->
+		<div class="text-facebook-blue mt-5 flex justify-center">
+			<a href="#"> Esqueceu sua senha? </a>
+		</div>
+
+		<!-- horizontal line -->
+		<hr class="border-0 bg-gray-300 text-gray-300 h-px mx-8 mt-7" />
+
+		<div class="flex justify-center">
+			<a href="#">
+				<button
+					class="
+						bg-facebook-green
+						text-white
+						p-2
+						rounded-lg
+						font-bold
+						mt-7
+						px-3
+					"
+				>
+					Criar nova conta
+				</button>
+			</a>
+		</div>
+		<!-- Idiomas -->
+		<!-- place-content-around: distribuir itens de grade de tal forma que haja uma quantidade igual de espaço em torno de cada linha no eixo do bloco.-->
+		<div class="grid grid-cols-2 gap-4 place-content-around px-8 mt-24">
+			<div class="justify-self-center">
+				<ul class="text-center">
+					<li>
+						<a class="text-gray-500 text-sm font-bold" href="#"
+							>Português (Brasil)</a
+						>
+					</li>
+					<li>
+						<a class="text-blue-800 text-sm" href="#">Español</a>
+					</li>
+					<li>
+						<a class="text-blue-800 text-sm" href="#">Deutsch</a>
+					</li>
+				</ul>
+			</div>
+			<!-- justify-self-end : alinha o item a direita do box-->
+			<!-- <div class="justify-self-center"> -->
+			<div class="flex justify-center">
+				<ul class="text-center">
+					<li>
+						<a class="text-blue-800 text-sm" href="#">English (US)</a>
+					</li>
+					<li>
+						<a class="text-blue-800 text-sm" href="#">Français (France)</a>
+					</li>
+					<li>
+						<a class="text-blue-800 text-sm" href="#">Italiano</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Footer -->
+		<footer
+			class="
+				container
+				flex flex-row
+				justify-center
+				text-xs
+				gap-2
+				mt-3
+				text-gray-600
+			"
+		>
+			<a href="#">Sobre</a>
+			<a href="#">Ajuda</a>
+			<a href="#">Mais</a>
+		</footer>
+
+		<footer
+			class="container flex flex-row justify-center text-xs mt-3 text-gray-600"
+		>
+			<span>Facebook, Inc.</span>
+		</footer>
+	</body>
+</html>
